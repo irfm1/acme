@@ -1,0 +1,23 @@
+
+
+# Ignore compiled files
+*.class
+*.o
+*.pyc
+
+# Ignore build directories
+build/
+dist/
+
+# Ignore IDE files
+.idea/
+.vscode/
+.venv/
+# Ignore log files
+*.log
+
+# Ignore configuration files
+config.ini
+
+# Ignore sensitive information
+secrets.txt
