@@ -6,7 +6,7 @@ from PyQt5.QtWidgets import QApplication, QMainWindow
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Auto Manhua Editor")
+        self.setWindowTitle("A.C.M.E. - Auto Comics Manhua Editor")
         self.setGeometry(100, 100, 800, 600)
         self.show()
 

@@ -19,6 +19,7 @@ def analyze_image(image_path):
     # ...
     
     # Return the analyzed image
+    analyzed_image = image
     return analyzed_image
 
 def extract_speech_bubbles(analyzed_image):
@@ -31,10 +32,12 @@ def extract_speech_bubbles(analyzed_image):
     Returns:
         speech_bubbles (list): A list of speech bubble regions.
     """
+    speech_bubbles = []
     # Perform speech bubble extraction
     # ...
     
     # Return the speech bubbles
+    
     return speech_bubbles
 
 def extract_floating_texts(analyzed_image):
@@ -47,6 +50,7 @@ def extract_floating_texts(analyzed_image):
     Returns:
         floating_texts (list): A list of floating text regions.
     """
+    floating_texts = []
     # Perform floating text extraction
     # ...
     
@@ -63,6 +67,7 @@ def extract_onomatopoeias(analyzed_image):
     Returns:
         onomatopoeias (list): A list of onomatopoeia regions.
     """
+    onomatopoeias = []
     # Perform onomatopoeia extraction
     # ...
     
